@@ -1,0 +1,29 @@
+{
+  "name": "crowdfunding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "compile": "node ethereum/scripts/compile.js",
+    "deploy": "node ethereum/scripts/deploy.js",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.5",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.2.0",
+    "next": "^12.3.4",
+    "next-routes": "^1.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "semantic-ui-react": "^2.1.4",
+    "solc": "^0.4.17",
+    "web3": "^1.8.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

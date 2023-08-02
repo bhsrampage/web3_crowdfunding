@@ -1,0 +1,1 @@
+export const campaignFactoryAddress = "0xb03182e9507f503cb086fDAb4b2Be87c88624f77"
